@@ -1,39 +1,31 @@
 <ion-view view-title="Dashboard">
   <ion-content class="padding">
-            <div class="list card">
-            <a class="item" href="#" onclick="window.open('http://www.google.com', '_self', 'location=yes'); return false;">
-                Open _self
-            </a>
-            <a class="item" href="#" onclick="window.open('http://www.twitter.com', '_blank', 'location=yes'); return false;">
-                Open _blank
-            </a>
-            <a class="item" href="#" onclick="window.open('http://naver.com', '_system', 'location=yes'); return false;">
-                Open _system
-            </a>
-        </div>
+    <div class="list card">
+      <div class="item item-divider">In-App-Browser
+      </div>
+      <div class="item item-body">
+        <a class="item" href="#" onclick="window.open('https://github.com/78lab/ionic-starter-kit', '_self', 'location=yes'); return false;">
+            Open with _self
+        </a>
+        <a class="item" href="#" onclick="window.open('https://github.com/78lab/ionic-starter-kit', '_blank', 'location=yes'); return false;">
+            Open with _blank
+        </a>
+        <a class="item" href="#" onclick="window.open('https://github.com/78lab/ionic-starter-kit', '_system', 'location=yes'); return false;">
+            Open with _system
+        </a>
+      </div>
+    </div>
+    <div class="list card">
+      <div class="item item-divider">Ionic Deploy</div>
+      <div class="item item-body">
+        <div>
+          <button class="button button-primary button-block " ng-click="checkForUpdates()">
+            Check for updates
+          </button>
 
-    <div class="list card">
-      <div class="item item-divider">Recent Updates</div>
-      <div class="item item-body">
-        <div>
-          There is a fire in <b>sector 3</b>
-          <a class="item" href="http://naver.com" target="_blank">link</a>
-        </div>
-      </div>
-    </div>
-    <div class="list card">
-      <div class="item item-divider">Health</div>
-      <div class="item item-body">
-        <div>
-          You ate an apple today!
-        </div>
-      </div>
-    </div>
-    <div class="list card">
-      <div class="item item-divider">Upcoming</div>
-      <div class="item item-body">
-        <div>
-          You have <b>29</b> meetings on your calendar tomorrow.
+          <button class="button button-stable button-block button-pulse" ng-if="hasUpdate" ng-click="doUpdate()">
+            Download update
+          </button>
         </div>
       </div>
     </div>

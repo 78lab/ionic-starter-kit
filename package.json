@@ -1,7 +1,7 @@
 {
-  "name": "ionic-stater-kit",
+  "name": "ionic-starter-kit",
   "version": "1.0.0",
-  "description": "ionic-stater-kit",
+  "description": "ionic-starter-kit",
   "dependencies": {
     "gulp": "^3.5.6",
     "gulp-sass": "^2.0.4",
@@ -20,7 +20,8 @@
     "cordova-plugin-whitelist",
     "cordova-plugin-splashscreen",
     "cordova-plugin-statusbar",
-    "ionic-plugin-keyboard"
+    "ionic-plugin-keyboard",
+    "ionic-plugin-deploy"
   ],
   "cordovaPlatforms": [
     "ios",

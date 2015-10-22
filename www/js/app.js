@@ -5,7 +5,20 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','ngIOS9UIWebViewPatch'])
+angular.module('starter', ['ionic','ionic.service.core', 'starter.controllers', 'starter.services','ngIOS9UIWebViewPatch'])
+
+// local image loading
+.config(['$compileProvider', function($compileProvider) {
+  $compileProvider.imgSrcSanitizationWhitelist(/^\s*(https?|ftp|file|blob|content):|data:image\//);
+}])
+
+//Use native scroll in Android
+.config(function($ionicConfigProvider) {    
+  if (!ionic.Platform.isIOS()) {
+    $ionicConfigProvider.scrolling.jsScrolling(false);
+    $ionicConfigProvider.tabs.position('bottom');
+  }
+})
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {

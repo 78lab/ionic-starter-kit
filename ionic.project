@@ -1,6 +1,6 @@
 {
   "name": "ionic-stater-kit",
-  "app_id": "",
+  "app_id": "f698bceb",
   "gulpStartupTasks": [
     "sass",
     "watch"
