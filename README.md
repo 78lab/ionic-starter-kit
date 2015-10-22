@@ -1,4 +1,5 @@
-# Ionic Starter Kit — The most basic ionic boilerplate
+# Ionic Starter Kit 
+###— The most basic ionic boilerplate
 
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/78lab/ionic-starter-kit)
 
@@ -21,7 +22,7 @@ Feed free to use other starters or themes after use this.
 
 ###Patches and Improvements
 - ios9 patch - webview patch (angular-ios-uiwebview.patch.js)
-- ios9 patch - advance security patch (.plist) :  this will fix 'ionic run --livereload' issue and ionic deploy issue
+- ios9 patch - advance security patch (.plist) :  this will fix 'ionic run ios --livereload' issue and ionic deploy issue
 - fix local image loading issue
 - use native scroll for android
 - use translate3d in css for hardware accelerated animation
@@ -34,7 +35,14 @@ Feed free to use other starters or themes after use this.
 ###Others
 - crosswalk
 
+# Prerequisite
 
+you need npm(https://nodejs.org), bower(http://bower.io), ionic
+if you don't. go install.
+
+```shell
+$ npm install -g ionic bower
+```
 
 # Getting Started
 
