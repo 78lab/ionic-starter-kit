@@ -1,35 +1,42 @@
-## Ionic Starter Kit — The most basic ionic boilerplate
+# Ionic Starter Kit — The most basic ionic boilerplate
+
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/78lab/ionic-starter-kit)
 
 Demo: https://play.google.com/store/apps/details?id=com.lab78.ionicstarterkit &nbsp;|&nbsp;
+
 Join [#ionic-starter-kit](https://gitter.im/78lab/ionic-starter-kit) chatroom on Gitter to stay up to date.
 
-##Why?
+#Why?
 
 There are some issues to fix before you start ionic project.
+
 This project helps you don't waste time to try to find and fix yourself.
+
 This project dosen't include any theme or ui framework.
-Feed free to use other starter or themes after use this.
 
-###What's included?
+Feed free to use other starters or themes after use this.
 
-#Patches and Improvements
+
+#What's included?
+
+###Patches and Improvements
 - ios9 patch - webview patch (angular-ios-uiwebview.patch.js)
 - ios9 patch - advance security patch (.plist) :  this will fix 'ionic run --livereload' issue and ionic deploy issue
 - fix local image loading issue
 - use native scroll for android
 - use translate3d in css for hardware accelerated animation
 
-#Modules and Plugins
+###Modules and Plugins
 - ionic platform web client
 - ionic-plugin-deploy
 - cordova-plugin-inappbrowser
 
-#Others
+###Others
 - crosswalk
 
 
 
-### Getting Started
+# Getting Started
 
 Just clone the repo:
 
@@ -43,20 +50,18 @@ $ ionic io init
 $ cp ./tmp/info.plist ./platforms/ios/MyApp/MyApp-Info.plist
 ```
 
-### TODO
+# TODO
 - ngCordova, ngResource
 - firebase
 - angular-moment
 - angular-jwt, angular-storage
 - parse push
 
-### References
+# References
   * [Preparing for iOS 9](http://blog.ionic.io/preparing-for-ios-9/)
   * [iOS 9 Potential Breaking Change](http://blog.ionic.io/ios-9-potential-breaking-change/)
   * [Preparing Your Apps for iOS 9](https://mobile.awsblog.com/post/Tx2QM69ZE6BGTYX/Preparing-Your-Apps-for-iOS-9)
   * [Animating Elements in your Ionic App](http://blog.ionic.io/animating-elements-in-your-ionic-app/)
   * [Crosswalk comes to Ionic](http://blog.ionic.io/crosswalk-comes-to-ionic/)
+  * [Use The Ionic CLI To Integrate Crosswalk Into Your Project](https://blog.nraboy.com/2015/02/use-ionic-cli-integrate-crosswalk-project/)
 
-### Learn More
-### Support
-### License
