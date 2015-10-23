@@ -7,14 +7,17 @@ Demo: https://play.google.com/store/apps/details?id=com.lab78.ionicstarterkit &n
 
 Join [#ionic-starter-kit](https://gitter.im/78lab/ionic-starter-kit) chatroom on Gitter to stay up to date.
 
-#Why?
+#Introduction
 
-There are some issues to fix before you start ionic project.
+Ionic-starter-kit is for new ionic developers.
 
-This project helps you don't waste time to try to find and fix yourself.
+If you try to start your first ionic project, you are more then welcome.
 
-This project dosen't include any theme or ui framework.
+Before you start an ionic project, there are some issues to fix.
 
+This project helps you don't waste time to try to find them.
+
+Since the kit dosen't include any theme or ui-kit,
 Feed free to use other starters or themes after use this.
 
 
@@ -28,21 +31,24 @@ Feed free to use other starters or themes after use this.
 - use translate3d in css for hardware accelerated animation
 
 ###Modules and Plugins
-- ionic platform web client
+- ngCordova
+- ionic-platform-web-client
 - ionic-plugin-deploy
 - cordova-plugin-inappbrowser
+- cordova-plugin-contacts
 
 ###Others
 - crosswalk
 
 # Prerequisite
 
-you need npm(https://nodejs.org), bower(http://bower.io), ionic
-if you don't. go install.
+You must have the following installed on your machine.
 
-```shell
-$ npm install -g ionic bower
-```
+  * [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+  * [NodeJS](https://nodejs.org)
+  * [Bower](http://bower.io)
+  * [Ionic](http://ionicframework.com/docs/guide/installation.html)
+
 
 # Getting Started
 
@@ -59,7 +65,7 @@ $ cp ./tmp/info.plist ./platforms/ios/MyApp/MyApp-Info.plist
 ```
 
 # TODO
-- ngCordova, ngResource
+- ngResource
 - firebase
 - angular-moment
 - angular-jwt, angular-storage
@@ -72,4 +78,4 @@ $ cp ./tmp/info.plist ./platforms/ios/MyApp/MyApp-Info.plist
   * [Animating Elements in your Ionic App](http://blog.ionic.io/animating-elements-in-your-ionic-app/)
   * [Crosswalk comes to Ionic](http://blog.ionic.io/crosswalk-comes-to-ionic/)
   * [Use The Ionic CLI To Integrate Crosswalk Into Your Project](https://blog.nraboy.com/2015/02/use-ionic-cli-integrate-crosswalk-project/)
-
+  * [Setup ngCordova in Ionic](https://www.mobomo.com/2015/8/setup-ngcordova-in-ionic/)
