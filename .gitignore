@@ -5,3 +5,4 @@ node_modules/
 platforms/
 plugins/
 .io-config.json
+sign_apk.sh
